@@ -26,3 +26,30 @@ console.log(solution(10, 10)); //4
 ref: https://stackoverflow.com/questions/58055310/how-can-i-break-down-this-gambling-problem
 
 
+
+given S = "1111010101111" the function should return 22
+string S of length N which encodes a non-negative number V in a binary form 3 given S = "1111010101111" the function should return 22.
+
+## Solution
+```python
+function solution(N, K) {
+  var num = 0, p = 1;
+	for(var i=S.length - 1;i>=0;i--) {
+		num += S.charAt(i) == '1' ? p : 0;
+		p*=2;
+	}
+	var res = 0;
+	while(num > 0) {
+		if(num%2 == 0)
+			num/=2;
+		else
+			num--;
+		res++;
+	}
+	return res;
+}
+```
+
+ref: https://leetcode.com/discuss/interview-question/651142/Microsoft-Online-Assesment-Question
+
+
