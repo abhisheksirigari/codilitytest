@@ -22,3 +22,7 @@ function solution(N, K) {
 console.log(solution(8, 0)); //7
 console.log(solution(18, 2)); //6
 console.log(solution(10, 10)); //4
+
+ref: https://stackoverflow.com/questions/58055310/how-can-i-break-down-this-gambling-problem
+
+
