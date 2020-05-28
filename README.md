@@ -1,7 +1,7 @@
 
-# When John gambles at the casino, he always uses a special system of tactics that he devised himself. It's based on always betting in one of two ways in each game.
-# codility gambles at the casino
-# Wins in the casino are paid equal to the wager, so if he bets C chips and wins, he gets 2C chips back. If he loses, he doesn't get any chips back.
+When John gambles at the casino, he always uses a special system of tactics that he devised himself. It's based on always betting in one of two ways in each game.
+codility gambles at the casino
+Wins in the casino are paid equal to the wager, so if he bets C chips and wins, he gets 2C chips back. If he loses, he doesn't get any chips back.
 
 ## Solution
 ```python
